@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(to bottom, #a0c1d1, #e6e6e6);
+    color: #333;
+}
+
+header {
+    background: #fff;
+    padding: 20px 0;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menu li {
+    margin: 0 15px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    color: #007acc;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: url('rainfall-to-desert-bloom.jpg') no-repeat center center/cover;
+    color: #fff;
+}
+
+.hero .content {
+    background: rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin: 10px 0 20px;
+}
+
+.hero button {
+    background-color: #007acc;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 5px;
+}
+
+.hero button:hover {
+    background-color: #005f99;
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px 20px;
+    background: #fff;
+}
+
+.info-item {
+    margin: 20px;
+    text-align: center;
+}
+
+.info-item img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.info-item h2 {
+    margin: 10px 0;
+    font-size: 1.5em;
+}
+
+.info-item p {
+    font-size: 1em;
+    color: #666;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        padding: 50px 20px;
+    }
+
+    .hero h1 {
+        font-size: 2em;
+    }
+
+    .info {
+        flex-direction: column;
+        align-items: center;
+    }
+}
